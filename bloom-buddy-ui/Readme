@@ -1,0 +1,68 @@
+# 🌱 PlantCare
+
+**PlantCare** is an intelligent plant management web app that empowers users to identify, track, and care for their plants effortlessly. By simply uploading a plant image, users can receive AI-powered predictions including the **plant name**, **ideal watering frequency**, **sunlight type**, and **temperature range** — all organized beautifully in personalized plant cards. 🌼
+
+---
+
+## 🌟 Key Features
+
+* 🔐 **User Authentication**
+
+  * Secure login to manage your plant collection.
+
+* 📷 **Image-Based Plant Recognition**
+
+  * Upload a photo and let the AI suggest plant details instantly.
+
+* 🧠 **Smart Predictions via API**
+
+  * Identify:
+
+    * ✅ Plant Name
+    * 💧 Watering Schedule
+    * ☀️ Sunlight Requirement
+    * 🌡️ Temperature Range
+
+* 🪴 **My Plants Dashboard**
+
+  * Store and view all your saved plants with details in custom **Plant Cards**.
+
+* ⏰ **Reminders**
+
+  * Add watering or replanting reminders to each plant.
+
+* 💻 **Responsive Design**
+
+  * Optimized for desktops, tablets, and mobile devices.
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer      | Technology                                                      |
+| ---------- | --------------------------------------------------------------- |
+| Frontend   | **React**, Tailwind CSS / Material UI                           |
+| API        | **Plant Identification API** (e.g., Plant.id / Custom AI Model) |
+| Auth       | Supabase auth                                                   |
+| Database   | Supabase db                                                     |
+| Deployment | Vercel / Netlify (optional)                                     |
+
+---
+
+---
+
+## 📦 Installation & Setup
+
+To run this project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/plantcare.git
+cd plantcare
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+```
